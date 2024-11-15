@@ -72,3 +72,7 @@ Kode Lebih Modular: Memecah fungsionalitas menjadi beberapa class membuat kode l
 Pemanfaatan Kembali Kode: Menghindari duplikasi kode karena subclass dapat menggunakan fitur yang sudah didefinisikan di superclass.
 Ekstensibilitas: Subclass dapat menambahkan fitur baru tanpa perlu mengubah kode superclass.
 Dengan subclass, Anda dapat mengembangkan aplikasi OOP dengan lebih efisien dan fleksibel, sambil menjaga agar kode tetap bersih dan mudah dipelihara.
+
+<?php
+
+?>
