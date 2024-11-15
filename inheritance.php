@@ -9,7 +9,7 @@ Misalkan kita memiliki sebuah class Kendaraan sebagai superclass, dan class Mobi
 php
 Copy code
 <?php
-// Parent Class (Superclass)
+Parent Class (Superclass)
 class Kendaraan {
     public $merk;
     public $warna;
@@ -19,7 +19,7 @@ class Kendaraan {
         $this->warna = $warna;
     }
 
-    // Method untuk menampilkan info kendaraan
+    Method untuk menampilkan info kendaraan
     public function tampilkanInfo() {
         echo "Kendaraan merk $this->merk berwarna $this->warna.";
     }
@@ -29,7 +29,7 @@ Membuat Subclass Mobil yang Mewarisi Kendaraan
 php
 Copy code
 <?php
-// Child Class (Subclass) yang mewarisi Kendaraan
+Child Class (Subclass) yang mewarisi Kendaraan
 class Mobil extends Kendaraan {
     public $jenisBahanBakar;
 
@@ -97,4 +97,4 @@ Inheritance memungkinkan satu class untuk mewarisi properti dan metode dari clas
 extends digunakan untuk mendefinisikan subclass.
 parent::__construct() memanggil konstruktor dari parent class.
 Override memungkinkan subclass menimpa metode yang ada di parent class.
-Inheritance adalah dasar dari OOP yang memungkinkan pengkodean yang lebih bersih dan terstruktur, serta mudah dikembangkan seiring bertambahnya kompleksitas aplikasi.
+Inheritance adalah dasar dari OOP yang memungkinkan pengkodean yang lebih bersih dan terstruktur, serta mudah dikembangkan seiring bertambahnya kompleksitas aplikasi. -->
