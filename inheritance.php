@@ -19,7 +19,7 @@ class Kendaraan {
         $this->warna = $warna;
     }
 
-    Method untuk menampilkan info kendaraan
+    // Method untuk menampilkan info kendaraan
     public function tampilkanInfo() {
         echo "Kendaraan merk $this->merk berwarna $this->warna.";
     }
